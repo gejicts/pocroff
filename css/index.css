@@ -51,6 +51,7 @@ header {
 	padding-top: 29px;
 	color: #077AE2;
 	font-size: 20px;
+	color: #077AE2;
 }
 
 .number:hover {
@@ -825,4 +826,1328 @@ textarea::placeholder {
     color: #077AE2;
     text-decoration: none;
     cursor: pointer;
+}
+
+
+.pros {
+	padding-right: 100px;
+	padding-left: 100px;
+	background: white;
+	width:1522px;
+	height: 719px;
+}
+.pros h1{
+	text-align: center;
+	font-size:40px;
+	width: 1262px;
+	height: 44px;
+    margin: 0 auto;
+   margin-top:100px;
+   margin-left: 170px;
+ 
+}
+.pros h2{
+	font-size:24px;
+	margin-top: 90px;
+}
+.pros p{
+	font-size:16px;
+
+	
+	
+}
+
+.num h2{
+	margin-left: 20px;
+    
+}
+
+.num {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	margin-left: 80px;
+	margin-top: 40px;
+}
+.num p{
+	width: 482px;
+	height:42px;
+	
+    margin-left: 20px;
+}
+.num h2{
+	margin-left: 20px;
+    
+}
+.num1{
+	display: flex;
+}
+.num1 img{
+	margin-top: 50px;
+	margin-left:100px;
+}
+
+
+.types {
+	width:1922px;
+	height: 732px;
+	margin-top:10px;
+	margin-right: 50px;
+	
+}
+.dline span{
+	color:#077AE2;
+}
+.line{
+	width: 199px;
+	border-color: #0B7EE3;
+	margin-left:100px;
+}
+.catalog1 {
+	margin-left: 100px;
+	width: 50px;
+	color: #077AE2;
+}
+.types h1{
+	width: 575px;
+	height: 132px;
+    padding-left:100px;
+    font-size:36px; 
+}
+
+
+.types h3{
+	width: 215px;
+	height: 21px;
+	padding-left:100px;
+	font-size: 16px;
+}
+.types p{
+ width: 500px;
+ height: 63px;	
+	font-size: 16px;
+
+}
+.left1{
+	width: 215px;
+	height: 21px;
+	padding-left:100px;
+	font-size: 16px;
+}
+.pic h2{
+	text-align: left;
+	
+
+}
+.pic{
+	padding-right:50px;
+	margin: -480px 120px 10px 720px;
+	display: flex;
+}
+.pic p{
+	width: 313px;
+    height: 120px;
+    text-align: left;
+    margin: 30px;
+    height:55px;
+
+}
+.dline p{
+	height: 1px;
+	margin-top: 50px;
+
+}
+.dline2{
+	padding-top: 10px;
+	margin:30px;
+}
+ .dline1 p{
+ 	height: 1px;
+ 	
+
+ }
+ .prev-button,
+.next-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 50px;
+  height: 50px;
+  background-color: transparent;
+  border: none;
+  font-size: 24px;
+  color: white;
+}
+
+.prev-button {
+  left: 10px;
+}
+
+.next-button {
+  right: 10px;
+}
+
+
+ .price-button{
+ 	width: 144px;
+ 	height: 45px;
+ 	background-color:#077AE2;
+    border: none;
+    
+    color: white;
+    font-size: 15px;
+    padding-left: 4px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 60px; 
+
+ }
+ .price-button:hover {
+    background-color: blue;
+    color: black;
+    padding-left: 4px;
+    text-align: center;
+}
+
+.home1 img{
+	padding-top:10px; 
+	 margin: 0 auto;
+	 width:290px;
+	 height: 450px;
+	 border-radius: 10px;
+}
+.home2 img{
+	display: flex;
+	 flex-direction:row; 
+	
+	 width:280px;
+	 height: 450px;
+	 border-radius: 10px;
+
+}
+.home3 img {
+	padding-bottom:10px;
+	
+}
+.home4 img{
+	padding-bottom:10px;
+	
+}
+.home34 {
+	padding-top: 10px;
+    flex-direction:row; 
+	width:220px;
+	height: 330px;
+	margin: 10px; 
+
+}
+
+@media ( max-width: 1500px) {
+
+/*Общие стили для контейнеров*/
+.container {
+    max-width: 1500px;
+    margin: 0 auto; /* центрирование контента */
+    padding: 0 20px; /* Добавляем отступы по бокам */
+}
+
+/*Шапка*/
+
+header {
+    padding-left: 20px; /* Убираем фиксированные паддинги, делаем более адаптивно */
+    padding-right: 20px;
+}
+
+.header1 {
+    display: grid;
+    grid-template-columns: 20% 1fr 18% 15%;
+    border-bottom: 1px solid #EBEBEB;
+    padding: 10px 0;
+}
+
+.Logo {
+    padding: 15px;
+    max-width: 100%;
+}
+
+.mark {
+    padding-top: 30px;
+    padding-left: 0;
+    justify-self: end;
+    max-width: 100%;
+}
+
+.location {
+    text-decoration: none;
+    padding-top: 33px;
+    color: #515151;
+    font-size: 16px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.location:hover {
+    color: #000000;
+}
+
+.number {
+    text-decoration: none;
+    font-weight: bold;
+    padding-top: 29px;
+    color: #077AE2;
+    font-size: 20px;
+}
+
+.number:hover {
+    color: #000080;
+}
+
+.header2 {
+    display: grid;
+    grid-template-columns: 10% 7% 1fr;
+    padding: 10px 0;
+}
+
+.mass_media {
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+.mass_media img {
+  width: 20px;
+  height: 20px;
+}
+
+.inf {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.inf a {
+    padding-top: 15px;
+    margin: 10px;
+    color: #515151;
+    font-size: 16px; /* уменьшил размер шрифта */
+    text-decoration: none;
+}
+
+.inf a:hover {
+    color: #000000;
+}
+
+/*Первый блок*/
+
+.information {
+    background-image: url("../img/fon1.png");
+    background-size: cover; /* Сделал фон адаптивным */
+    background-repeat: no-repeat;
+    display: flex;
+    flex-wrap: wrap; /* Добавил обертку для адаптивности */
+    height: auto; /* Убрал фиксированную высоту */
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 30px; /* добавил отступ снизу */
+}
+
+.content {
+    padding: 50px 20px 20px 0;
+    flex: 1 1 50%;
+    min-width: 300px; /* Чтобы текст не сжимался */
+}
+
+.content h1 {
+    font-size: 36px;
+    color: #212121;
+    margin-bottom: 20px;
+    line-height: 1.2; /* Улучшил межстрочное расстояние */
+}
+
+.p1 {
+    font-size: 18px;
+    color: #515151;
+    padding-bottom: 10px;
+    line-height: 1.4;
+}
+
+.p2 {
+    font-size: 14px;
+    color: #515151;
+    padding-top: 20px;
+    line-height: 1.4;
+    border-top: 1px solid;
+}
+
+.information img {
+    max-width: 50%;
+    flex: 1 1 50%;
+    height: auto;
+     padding-left: 10px;
+     padding-right: 10px;
+
+}
+
+/*Второй блок*/
+
+.big_company {
+    padding-left: 20px; /* Убрал фикс. паддинг, используем .container */
+    padding-right: 20px;
+    height: auto; /* Убрал фиксированную высоту */
+    background-color: #FFFFFF;
+}
+
+.main_name {
+    font-size: 30px;
+    margin-top: 30px;
+    text-align: center; /* Центрирование заголовка */
+}
+
+.name {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    font-size: 30px;
+}
+.name div {
+    border-bottom: 2px solid #0B7EE3;
+    margin: 10px 0px 30px;
+    background:#fff;
+    align-self: center; /* Для вертикального выравнивания полосы */
+}
+
+.name h2 {
+    font-size: 30px;
+    text-align: center;
+    margin: 0; /* Убираем стандартные отступы */
+}
+
+.big_company_content {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px 0;
+}
+
+.text1 {
+    width: 100%; /* Занимаем всю ширину в начале */
+    margin: 10px 0;
+    flex: 1 1 60%;
+}
+
+.text1 p {
+    color: #515151;
+    font-size: 14px;
+    padding-right: 10px;
+    margin: 0;
+    line-height: 1.4;
+}
+
+.text_and_photo {
+  padding-right: 0px;
+    width: 100%; /* Занимаем всю ширину */
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Адаптивная сетка */
+    gap: 15px;
+}
+
+.text_flex p {
+    padding: 5px 10px 10px 10px;
+     font-size: 14px;
+}
+.text_flex img {
+  width: 25px;
+  height: 25px;
+    margin-top: 5px;
+
+}
+
+.text_flex {
+    display: flex;
+    margin-top: 15px;
+
+}
+
+.with_photo {
+     width: 100%;
+    height: auto; /* Адаптивная высота */
+    min-height: 200px;
+    background-image: url("../img/building2.png");
+    background-size: contain; /* Изображение не обрезается, остается внутри конт */
+     background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 20px;
+     flex: 1 1 40%; /*  */
+}
+
+
+.num_text {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 20px;
+}
+
+.num_text h2 {
+    margin: 0;
+    text-align: center;
+    font-size: 32px;
+    color: #077AE2;
+}
+
+.num_text span {
+    font-size: 24px;
+}
+
+.num_text p {
+    margin: 10px 0px 0px 0px;
+    text-align: center;
+    font-size: 14px;
+    color: #515151;
+    line-height: 1.4;
+    grid-column: 1 / -1; /* Занимает всю ширину */
+}
+
+/*Третий блок*/
+.pros {
+	padding-left: 20px;
+    padding-right: 20px;
+	background: white;
+	width:auto;
+	height: auto; /*адаптивная высота*/
+}
+.pros h1{
+	text-align: center;
+	font-size:30px;
+    margin: 0 auto;
+   margin-top:30px;
+ 
+}
+.pros h2{
+	font-size:20px;
+	margin-top: 30px;
+}
+.pros p{
+	font-size:14px;
+
+	
+	
+}
+
+.num h2{
+	margin-left: 5px;
+    
+}
+
+.num {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+	margin-left: 20px;
+	margin-top: 20px;
+}
+.num p{
+	width: auto;
+	
+    margin-left: 5px;
+     line-height: 1.4;
+}
+.num h2{
+	margin-left: 5px;
+    
+}
+.num1{
+	display: flex;
+}
+.num1 img{
+    width: 20px;
+    height: 20px;
+	margin-top: 30px;
+	margin-left:10px;
+}
+.types {
+	width:auto;
+    height:auto; /*адаптивная высота*/
+	margin-top:10px;
+    padding: 20px;
+}
+
+.dline span{
+	color:#077AE2;
+}
+.line{
+	width: 80px;
+	border-color: #0B7EE3;
+	margin-left:20px;
+}
+.catalog1 {
+	margin-left: 20px;
+	width: 50px;
+	color: #077AE2;
+}
+.types h1{
+	width: auto;
+    font-size:28px;
+    padding-left: 20px;
+}
+.types h3{
+	width: auto;
+	padding-left:20px;
+	font-size: 14px;
+}
+.types p{
+  width: auto;
+	font-size: 14px;
+    line-height: 1.4;
+}
+.left1{
+	width: auto;
+	padding-left: 20px;
+	font-size: 14px;
+}
+.pic h2{
+	text-align: left;
+	
+}
+.pic{
+	padding-right:5px;
+	margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.pic p{
+	width: auto;
+    text-align: left;
+    margin: 5px;
+    line-height: 1.4;
+
+}
+
+.dline p{
+    height: 1px;
+	margin-top: 20px;
+}
+
+.dline2{
+	padding-top: 10px;
+	margin:5px;
+}
+.dline1 p{
+	height: 1px;
+	
+}
+
+.prev-button,
+.next-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 30px;
+  height: 30px;
+  background-color: transparent;
+  border: none;
+  font-size: 20px;
+  color: white;
+}
+
+.prev-button {
+  left: 10px;
+}
+
+.next-button {
+  right: 10px;
+}
+
+
+.price-button{
+    width: 100px;
+    height: 30px;
+    background-color:#077AE2;
+    border: none;
+    color: white;
+    font-size: 13px;
+    padding-left: 4px;
+    text-align: center;
+    margin: 10px auto;
+ }
+ .price-button:hover {
+    background-color: blue;
+    color: black;
+}
+
+.home1 img{
+	padding-top:10px;
+	 margin: 0 auto;
+	 width:150px;
+	 height: 220px;
+	 border-radius: 10px;
+}
+.home2 img{
+	display: flex;
+	 flex-direction:row; 
+	 width:140px;
+	 height: 220px;
+	 border-radius: 10px;
+}
+.home3 img {
+	padding-bottom:10px;
+	
+}
+.home4 img{
+	padding-bottom:10px;
+	
+}
+.home34 {
+	padding-top: 10px;
+    flex-direction:row;
+	width:130px;
+	height: 200px;
+	margin: 5px; 
+}
+
+
+.advantages {
+    padding: 30px 20px;
+    display: grid;
+    grid-template-columns: 1fr; /* Для мобильных устройств */
+    height: auto;
+    background-color: #FFFFFF;
+}
+
+
+.fon_tools {
+    width: 100%; /* Сделал картинку адаптивной */
+    height: auto; /* Позволяет сохранить пропорции */
+    background-image: url("../img/tools-on-the-table.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 20px;
+    min-height: 200px; /* Минимальная высота для видимости */
+}
+
+.advantages h1 {
+    font-size: 24px;
+    color: #212121;
+}
+
+.advantages p {
+    font-size: 14px;
+    color: #515151;
+    padding-right: 0;
+    line-height: 1.4;
+}
+
+.checks {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Адаптивная сетка */
+    margin-top: 20px;
+    gap: 10px;
+}
+
+.check_text {
+    display: flex;
+}
+
+.check_text img {
+    margin-top: 5px;
+    width: 24px;
+    height: 18px;
+}
+
+.check_text h2 {
+    font-size: 16px;
+    font-weight: bold;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/*Четверный блок*/
+
+.why_we {
+  	padding-left: 20px;
+    padding-right: 20px;
+    background-color: #FBFBFB;
+    height: auto;
+}
+
+.why_we h1 {
+    font-size: 28px;
+    color: #212121;
+    text-align: center;
+    padding-top: 30px;
+    margin: 0px;
+}
+
+.why_we p {
+    color: #515151;
+    text-align: center;
+     padding: 20px; /* уменьшил паддинг */
+    font-size: 14px;
+    margin: 0px;
+    line-height: 1.4;
+}
+
+.numbers {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+     padding-top: 30px; /* уменьшил паддинг */
+    justify-content: center;
+}
+
+.numbers img {
+    width: 60px; /* уменьшил размеры */
+    height: 60px;
+}
+
+.numbers h2 {
+    font-size: 18px;
+}
+
+.numbers h3 {
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.4;
+}
+
+.nam {
+    width: auto;
+    height: auto;
+    padding: 10px;
+    max-width: 250px; /* максимальная ширина карточки */
+}
+
+.empty {
+    height: 0;
+}
+
+/*Пятый блок*/
+.questions {
+    background-image: url("../img/fon2.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-right: 20px;
+    padding-left: 20px;
+    height: auto;
+    padding-bottom: 30px;
+}
+
+
+.area {
+    border: 0px solid;
+    background-color: #243948;
+    border-radius: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+
+.main_h1 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.main_h1 h1 {
+    color: #FFFFFF;
+    font-size: 28px;
+    margin: 0;
+    flex: 1;
+}
+
+.block1 img {
+    height: auto;
+    width: 100%; /* Сделал картинку адаптивной */
+     max-width: 200px;
+    margin-top: 10px;
+}
+
+.questions hr {
+    width: 40px;
+    margin-left: 0;
+    border-color: #0B7EE3;
+}
+
+
+.empty2 {
+    width: 100%;
+    flex: 1;
+    min-width: 100px;
+}
+
+.main_h1 img {
+    margin-top: 10px;
+    width: auto;
+    height: 20px;
+}
+
+.content_block {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.block1 {
+     width: 100%; /* Занимает всю ширину */
+    margin-bottom: 20px;
+}
+
+
+.content_block p {
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.4;
+
+}
+
+.accordion {
+    margin-left: 0;
+    flex: 1;
+    min-width: 200px;
+}
+
+
+.accordion .container {
+    position: relative;
+    margin: 5px 0;
+}
+
+
+.accordion .label {
+    font-size: 18px;
+    color: #FFFFFF;
+    position: relative;
+    padding: 15px 0;
+    cursor: pointer;
+}
+
+.accordion .label::before {
+    content: '+';
+    color: white;
+    position: absolute;
+    top: 50%;
+    right: -5px;
+    font-size: 16px;
+    transform: translateY(-50%);
+}
+
+.accordion .content2 {
+    position: relative;
+    color: white;
+    height: 0;
+    font-size: 14px;
+    text-align: justify;
+    overflow: hidden;
+    transition: 0.5s;
+    line-height: 1.2;
+    font-weight: normal;
+}
+
+
+.accordion hr{
+  width: auto;
+    margin-left: 0;
+    border: 1px solid grey;
+}
+
+.accordion .container.active .content2 {
+    height: auto;
+    line-height: 1.4;
+    font-weight: normal;
+    padding: 10px 0px;
+}
+
+
+.accordion .container.active .label::before {
+    content: '-';
+    font-size: 20px;
+}
+
+.accordion .container.active hr {
+  width: auto;
+    margin-left: 0;
+    border: 1px solid #0B7EE3;
+}
+
+
+.have_que {
+    background-color: #077AE2;
+    color: #FFFFFF;
+    width: 130px;
+    height: 40px;
+    font-size: 14px;
+    border: 0px;
+    font-family: 'Montserrat';
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-left: 0;
+}
+
+.have_que:hover {
+    background-color: #FFFFFF;
+    color: #077AE2;
+}
+
+
+/*Шестой блок*/
+.our_contacts {
+    background-image: url("../img/fon1.png");
+    background-size: cover; /* Сделал фон адаптивным */
+    background-repeat: no-repeat;
+    padding-right: 20px;
+    padding-left: 20px;
+     display: flex;
+     flex-wrap: wrap;
+    height: auto; /* Убрал фиксированную высоту */
+    padding-bottom: 30px; /* добавил отступ снизу */
+}
+
+.left {
+     flex: 1 1 40%; /* Чтобы текст занимал часть ширины, а фото часть */
+    padding: 20px;
+    min-width: 200px; /* Чтобы текст не сжимался */
+}
+
+.left h1 {
+    font-size: 28px;
+    color: #212121;
+    margin: 0 0 10px 0; /* Убрал фиксированные отступы */
+}
+
+.left h2 {
+    color: #077AE2;
+    font-size: 28px;
+    margin: 10px 0px; /* Убрал фиксированные отступы */
+}
+
+.contacts {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.our_contacts hr {
+    width: 40px;
+    margin-left: 0;
+    border-color: #0B7EE3;
+}
+
+
+.почта {
+    width: 20px;
+    height: 20px;
+    margin-top: 10px;
+}
+
+.contacts p {
+  font-size: 14px;
+   margin: 10px;
+    color: #212121;
+}
+
+
+.contacts a {
+    text-decoration: none;
+}
+
+.mm {
+  margin-top: 10px;
+   width: 20px;
+    height: 20px;
+}
+
+.adress {
+    display: grid;
+   grid-template-columns: 1fr ; /* 1 колонка для мобил */
+   gap: 20px;
+   padding: 20px 0;
+}
+
+
+.flex1 {
+    display: flex;
+   align-items: flex-start;
+}
+
+
+.adress h2{
+    font-size: 18px;
+    color: #000000;
+    margin-bottom: 10px;
+    line-height: 1.2;
+}
+
+.adress img {
+    width: 20px;
+    height: 20px;
+}
+
+
+.adress p{
+    color: #212121;
+    font-size: 14px;
+    margin: 10px;
+    line-height: 1.4;
+}
+
+
+.block {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+
+.рабочий {
+   width: 100%;
+    height: auto;
+    margin: 20px;
+    max-width: 400px; /* макс. ширина для фото */
+      flex: 1 1 40%;
+}
+
+.рабочий img {
+    width: 100%; /* Изображение занимает всю ширину */
+    height: auto;
+     max-width: 400px;
+
+}
+/*Седьмой блок*/
+
+.our_map {
+  background-image: url("../img/fon1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+  color: #212121;
+    font-size: 28px;
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+.our_map h1{
+    margin: 0px;
+}
+
+.yandex_map {
+  margin: 20px 0px 0px 0px;
+    width: 100%; /* Занимает всю ширину */
+}
+.yandex_map iframe {
+    width: 100%;
+    height: 300px;
+}
+/*Подвал*/
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    height: auto; /* Адаптивная высота */
+    padding-left: 20px; /* Убираем фикс паддинги */
+    padding-right: 20px;
+    padding-bottom: 20px; /* Меньше отступов снизу */
+    padding-top: 20px;
+    justify-content: center;
+}
+
+footer p {
+    color: #515151;
+    font-size: 14px;
+    margin: 10px;
+}
+.flex_footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+footer a {
+    color: #515151;
+    font-size: 14px;
+    margin: 10px;
+}
+/*Первое модальное окно*/
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+    padding-top: 60px;
+}
+.modal-content {
+  background-color: #077AE2;
+    margin: 5% auto;
+  width: 90%;
+   max-width: 600px;
+    height: auto;
+    border-radius: 10px;
+    background-image: url("../img/men.png");
+  background-size: contain;
+    background-repeat: no-repeat;
+    background-position:bottom right;
+   padding: 20px;
+    box-sizing: border-box;
+}
+
+.modal-content h1 {
+    color: #FFFFFF;
+    width: auto; /* Адаптивная ширина */
+    font-size: 24px; /* Меньше для мобильных */
+    margin-bottom: 10px;
+}
+.modal-content p {
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: normal;
+    width: auto;
+     line-height: 1.4;
+}
+.your_ques {
+  width: 100%;
+    height: 50px;
+    font-size: 14px;
+    padding: 10px;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid;
+    border-color:rgba(255, 255, 255, 0.6);
+  color: rgba(255, 255, 255, 0.6);
+    font-family: 'Montserrat';
+    margin-top: 10px;
+
+}
+
+.your_number {
+    width: 100%;
+    height: 30px;
+    font-size: 14px;
+    padding: 10px;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid;
+  border-color:rgba(255, 255, 255, 0.6);
+    color: rgba(255, 255, 255, 0.6);
+    font-family: 'Montserrat';
+    margin-top: 10px;
+
+}
+
+
+textarea::placeholder {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+
+input::placeholder {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+
+.check_box{
+  width: 15px;
+    height: 15px;
+    border-radius: 4px;
+  margin-top: 10px;
+   background-color: initial;
+}
+
+
+.flex3 {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.flex3 p {
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 10px;
+  width: auto;
+    line-height: 1.2;
+    margin: 10px;
+}
+
+.send {
+  width: 100px;
+    height: 30px;
+    border-radius: 5px;
+  margin-top: 10px;
+    color: #077AE2;
+   background-color: #FFFFFF;
+    border: none;
+   font-size: 14px;
+    font-family: 'Montserrat';
+   text-align: center;
+}
+
+.send:hover {
+  color: #FFFFFF;
+  background-color: #077AE2;
+  border: 1px solid #FFFFFF;
+}
+
+.close {
+    color: #FFFFFF;
+    float: right;
+    font-size: 30px;
+    line-height: 30px;
+
+}
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+/*Второе модальное окно*/
+
+.modal-content2 {
+  background-color: #FFFFFF;
+   margin: 20% auto;
+  width: 80%;
+  max-width: 400px;
+   height: auto;
+    border-radius: 10px;
+  padding: 20px;
+   box-sizing: border-box;
+}
+.modal-content2 h1{
+   color: #212121;
+    font-size: 24px;
+    text-align: center;
+  margin-top: 10px;
+
+}
+.modal-content2 img {
+    width: 50px;
+  height: 50px;
+   padding-left: 0px;
+    display: block;
+   margin: 20px auto;
+}
+
+.modal-content2 p {
+  font-weight: normal;
+   font-size: 14px;
+   color: #515151;
+    text-align: center;
+  margin-top: 10px;
+  line-height: 1.4;
+}
+.close2 {
+    color: #212121;
+    float: right;
+    font-size: 30px;
+    line-height: 30px;
+
+}
+
+.close2:hover,
+.close2:focus {
+    color: #077AE2;
+    text-decoration: none;
+    cursor: pointer;
+}
 }
